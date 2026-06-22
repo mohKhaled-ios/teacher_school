@@ -1,0 +1,84 @@
+name: teacher_management_app
+description: A professional teacher management application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  
+  # Dependency Injection
+  get_it: ^7.6.4
+  
+  # Network
+  dio: ^5.4.0
+  retrofit: ^4.1.0
+  pretty_dio_logger: ^1.3.1
+  
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  
+  # Localization
+  easy_localization: ^3.0.3
+  
+  # UI
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  lottie: ^2.7.0
+  
+  # Forms & Validation
+  formz: ^0.6.1
+  
+  # File Picker
+  file_picker: ^8.0.0
+  image_picker: ^1.0.4
+  
+  # Date & Time
+  intl: ^0.20.2
+  
+  # Others
+  flutter_launcher_icons: ^0.13.1
+  json_annotation: ^4.8.1
+  dartz: ^0.10.1
+  socket_io_client: ^3.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  
+  # Code Generation (⚠️ متوافقة 100%)
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    # - assets/images/
+    # - assets/icons/
+    # - assets/animations/
+    - assets/translations/
+  
+  # fonts:
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Cairo-SemiBold.ttf
+  #         weight: 600
